@@ -36,6 +36,7 @@ static void print_environment_envp(char *envp[]) {  //  Вывод среды ч
 }
 
 int main(int argc, char *argv[], char *envp[]) {
+    sleep(5);
     if(argc < 2) {
         fprintf(stderr, "Usage: %s [+ | *]\n", argv[0]);
         return EXIT_FAILURE;

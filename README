@@ -28,7 +28,7 @@
 
 Перед запуском необходимо установить переменную CHILD_PATH,
 указывающую путь к исполняемому файлу child.
-Пример: export CHILD_PATH=./build/debug
+Пример: export CHILD_PATH=./build/debug/child
 
 Запуск родительского процесса: ./build/debug/parent
 
